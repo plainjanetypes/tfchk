@@ -1,3 +1,4 @@
+/* 
 terraform {
   backend "Azure"
   {}
@@ -14,3 +15,4 @@ resource "azurerm_resource_group" "examtf" {
 output "id" {
   value = data.azurerm_resource_group.examtf.id
 }
+*/
